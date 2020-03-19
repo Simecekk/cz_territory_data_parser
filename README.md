@@ -7,22 +7,33 @@ Data jsou uložená ve formátu CSV ve složce data_csv.
 Pro nahrání dat do DB je potřeba spustit custom command a to v tomhle pořádí.
 
 python manage.py obec_data_collect
+
 python manage.py orp_data_collect
+
 python manage.py pou_data_collect
 
 Applikace obsahuje endpointy, na kterých je možné data zobrazovat.
 
 Pro zobrazení všech dat z DB
+
 /show/obec/
+
 /show/pou/
+
 /show/orp/
 
 Pro zobrazení jednoho objektu.
+
 /show/obec/<pk>
+  
 /show/pou/<pk>
+  
 /show/orp/<pk>
 
 Pro filtrování na základě query parametru
+
 /show/obec/?nazev=<foo_bar>
+
 /show/pou/?nazev=<foo_bar>
+
 /show/orp/?nazev=<foo_bar>
