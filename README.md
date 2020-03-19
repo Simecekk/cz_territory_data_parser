@@ -1,5 +1,6 @@
 # cz_territory_data_parser
 Zpracuje open data z cuzk.cz
+
 https://www.cuzk.cz/Uvod/Produkty-a-sluzby/RUIAN/2-Poskytovani-udaju-RUIAN-ISUI-VDP/Ciselniky-ISUI/Vyssi-uzemni-prvky-a-uzemne-evidencni-jednotky.aspx
 
 Data jsou uložená ve formátu CSV ve složce data_csv.
@@ -24,11 +25,11 @@ Pro zobrazení všech dat z DB
 
 Pro zobrazení jednoho objektu.
 
-/show/obec/<pk>
+/show/obec/<obec_pk>/
   
-/show/pou/<pk>
+/show/pou/<pou_pk>/
   
-/show/orp/<pk>
+/show/orp/<orp_pk>/
 
 Pro filtrování na základě query parametru
 
